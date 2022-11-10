@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 int main() {
-	int A, U, a = 3, b = 5;
-
-	A = a * b;
-	U = 2 * (a + b);
-
-	printf("Umfang: %d \nFlaecheninhalt: %d \n", U, A);
+	int summe = 0;
+	for (int i = 1; i < 15; i++) {
+		summe = summe + 1;
+	}
+	printf("%d", summe);
 
 	getchar();
 	return 0;
