@@ -186,26 +186,19 @@ void gleitKommaZahl() {
 
 }
 
-
-
-
-
 void main() {
-	//printf("Aufgabe 1:\n");
-	//maximum();
+	printf("Aufgabe 1:\n");
+	maximum();
 
-	//printf("Aufgabe 2:\n");
-	//ausdruecke();
+	printf("Aufgabe 2:\n");
+	ausdruecke();
 
-	//printf("Aufgabe 3:\n");
-	//fakultaet();
+	printf("Aufgabe 3:\n");
+	fakultaet();
 
-	//printf("Aufgabe 4:\n");
-	//calcPi();
+	printf("Aufgabe 4:\n");
+	calcPi();
 
 	printf("Aufgabe 5:\n");
 	gleitKommaZahl();
-
 }
-
-
