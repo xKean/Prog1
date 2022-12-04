@@ -1,5 +1,4 @@
 #include "stdio.h"
-#include <stdbool.h>
 
 int gewinn(int a, int b, int c) {
 	if (a == b && a == c) {
@@ -10,11 +9,6 @@ int gewinn(int a, int b, int c) {
 	}
 
 	return 10;
-}
-
-bool numbersAreSame(int x, int y) {
-	if (x == y) return true;
-	return false;
 }
 
 int main() {
