@@ -12,11 +12,12 @@ int gewinn(int a, int b, int c) {
 }
 
 int main() {
-	int a, b, c;
-	printf_s("Bitte drei Ganzzahlen eingeben!\n");
+	unsigned int a = 0, b = 0, c = 0;
+	printf_s("Bitte drei Gannzzahlen eingeben!\n");
 	scanf_s("%d", &a);
 	scanf_s("%d", &b);
 	scanf_s("%d", &c);
+
 
 	printf_s("\n\n%d\n\n",gewinn(a,b,c)	);
 

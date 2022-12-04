@@ -5,16 +5,27 @@ int rundeSumme(int a, int b, int c){
 }
 
 int runde10(int n) {
-	if (n %10 > 4) {
-		return n - n % 10 + 10;
+	if (n < 0) { // Wenn N kleiner 0
+		if (n % 10 >= -4) {
+			return n - (n % 10);
+		}
+		else {
+			return n - (10 + (n % 10));
+		}
 	}
-	else {
-		return n - n % 10;
+	else { // Wenn N größer 0
+		if (n % 10 > 4) {
+			return n - n % 10 + 10;
+		}
+		else {
+			return n - n % 10;
+		}
 	}
+	
 }
 
 int main() {
-	int a, b, c;
+	int a = 0, b = 0, c = 0;
 	printf_s("Bitte drei Ganzzahlen zum auf 10er runden eingeben!\n");
 
 	scanf_s("%d", &a);
