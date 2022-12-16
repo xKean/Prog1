@@ -3,7 +3,8 @@
 #include <limits.h>
 
 int main() {
-	int N = 3, f[N * (N + 1) / 2], n = seriesUp(f, N);
+	int N = 3, 
+		f[999999], n = seriesUp(f, N);
 	for (int i = 0; i < n; i++) printf("%d%c ", f[i], i < n - 1 ? ',' : ' ');
 }
 
